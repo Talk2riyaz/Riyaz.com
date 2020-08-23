@@ -1,0 +1,97 @@
+html,body {
+  scroll-behavior: smooth;
+}
+
+
+
+/* ********** About ******* */
+.fa-facebook-square{
+    color: royalblue;
+}
+
+.fa-github{
+ color: black;
+}
+
+.fa-linkedin-square{
+    color: dodgerblue;
+}
+
+
+
+/* *********** project ************ */
+.btn-1 {
+    margin-left: 3rem;
+}
+.btn-2 {
+    margin-left: 4rem !important;
+}
+
+
+
+
+
+/* // X-Small devices(portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+#hero-img{
+    margin-top: -6rem;
+    height: 500px;
+    width: 300px;
+}
+
+ #our-about{
+     margin-top: -5rem;
+ }
+  #our-projects{
+      margin-top: -4rem !important;
+  }
+
+  
+  #our-certifications{
+      margin-top: -5rem;
+  }
+ }
+
+
+
+ #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #00bfff; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+ }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+}
+
